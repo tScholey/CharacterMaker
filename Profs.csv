@@ -1,0 +1,19 @@
+Artificer,Barbarian,Bard,Blood Hunter,Cleric,Druid,Fighter,Monk,Paladin,Ranger,Rogue,Sorcerer,Warlock,Wizard
+Arcana,Animal Handling,Acrobatics,Athletics,History,Arcana,Acrobatics,Acrobatics,Athletics,Animal Handling,Acrobatics,Arcana,Arcana,Arcana
+History,Athletic,Animal Handling,Acrobatics,Insight,Animal Handling,Athletics,Athletics,Insight,Athletics,Athletics,Deception,Deception,History
+Investigation,Intimidation,Arcana,Arcana,Medicine,Insight,History,History,Intimidation,Insight,Deception,Insight,History,Insight
+Medicine,Nature,Athletics,Insight,Persuasion,Medicine,Insight,Insight,Medicine,Investigation,Insight,Intimidation,Intimidation,Investigation
+Nature,Perception,Deception,Investigation,Religion,Nature,Intimidation,Religion,Persuasion,Nature,Intimidation,Persuasion,Investigation,Medicine
+Perception,Survival,History,Survival,,Perception,Perception,Stealth,Religion,Perception,Investigation,Religion,Nature,Religion
+Sleight of Hand,,Insight,,,Religion,Survival,,,Stealth,Perception,,Religion,
+,,Intimidation,,,Survival,,,,Survival,Performance,,,
+,,Investigation,,,,,,,,Persuasion,,,
+,,Medicine,,,,,,,,Sleight of Hand,,,
+,,Nature,,,,,,,,Stealth,,,
+,,Perception,,,,,,,,,,,
+,,Performance,,,,,,,,,,,
+,,Persuasion,,,,,,,,,,,
+,,Religion,,,,,,,,,,,
+,,Sleight of Hand,,,,,,,,,,,
+,,Stealth,,,,,,,,,,,
+,,Survival,,,,,,,,,,,

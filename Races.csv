@@ -1,0 +1,83 @@
+racename,heightmin,dicenumb,diceval,strval,dexval,conval,intval,wisval,chaval,nonspecamount,Proficiency Amount
+Aaracokra,58,1,10,0,2,0,0,1,0,0,0
+Aasimar (Fallen),58,2,10,1,0,0,0,0,2,0,0
+Aasimar (Protector),58,2,10,0,0,0,0,1,2,0,0
+Aasimar (Scourge),58,2,10,1,0,1,0,0,2,0,0
+Bugbear,72,2,12,2,1,0,0,0,0,0,1
+Centaur,72,1,12,2,0,0,0,1,0,0,1
+Changeling,61,2,4,0,0,0,0,0,2,1,2
+Dragonborn,72,3,6,2,0,0,0,0,1,0,0
+Dwarf (Duergar),48,1,12,1,0,2,0,0,0,0,0
+Dwarf (Hill),48,1,12,0,0,2,0,1,0,0,0
+Dwarf (Mark of Warding),48,1,12,0,0,2,1,0,0,0,0
+Dwarf (Mountain),48,1,12,2,0,2,0,0,0,0,0
+Elf (Drow),60,1,12,0,2,0,0,0,1,0,1
+Elf (Eladrin),60,1,12,0,2,0,1,0,1,0,1
+Elf (High),60,1,12,0,2,0,1,0,0,0,1
+Elf (Mark of Shadow),60,1,12,0,2,0,0,0,1,0,1
+Elf (Sea),60,1,12,0,2,1,0,0,0,0,1
+Elf (Shadar-kai),60,1,12,0,2,1,0,0,0,0,1
+Elf (Wood),60,1,12,0,2,0,0,1,0,0,1
+Firbolg,84,1,12,1,0,0,0,2,0,0,0
+Genasi (Air),58,2,10,0,1,2,0,0,0,0,0
+Genasi (Earth),58,2,10,1,0,2,0,0,0,0,0
+Genasi (Fire),58,2,10,0,0,2,1,0,0,0,0
+Genasi (Water),58,2,10,0,0,2,0,1,1,0,0
+Gith (Githyanki),70,2,4,2,0,0,1,0,0,0,1
+Gith (Githzerai),70,2,4,0,0,0,1,2,0,0,0
+Gnome (Deep),36,2,4,0,1,0,2,0,0,0,0
+Gnome (Forest),36,2,4,0,1,0,2,0,0,0,0
+Gnome (Mark of Scribing),36,2,4,0,0,0,2,0,1,0,0
+Gnome (Rock),36,2,4,0,0,1,2,0,0,0,0
+Goblin,36,2,4,0,2,1,0,0,0,0,0
+Goliath,84,1,12,2,0,1,0,0,0,0,1
+Half-Elf,58,2,10,0,0,0,0,0,2,2,2
+Half-Elf (Aquatic Elf Descent),58,2,10,0,0,0,0,0,2,2,2
+Half-Elf (Drow Descent),58,2,10,0,0,0,0,0,2,2,2
+Half-Elf (Mark of Detection),58,2,10,0,0,0,0,2,0,1,2
+Half-Elf (Mark of Storm),58,2,10,0,1,0,0,0,2,0,2
+Half-Elf (Moon Elf or Sun Elf Descent),58,2,10,0,0,0,0,0,2,2,2
+Half-Elf (Wood Elf Descent),58,2,10,0,0,0,0,0,2,2,2
+Halfling (Ghostwise),38,2,4,0,2,0,0,1,0,0,0
+Halfling (Lightfoot),38,2,4,0,2,0,0,0,1,0,0
+Halfling (Mark of Healing),38,2,4,0,2,0,0,1,0,0,0
+Halfling (Mark of Hospitality),38,2,4,0,2,0,0,0,1,0,0
+Halfling (Stout),38,2,4,0,2,1,0,0,0,0,0
+Half-Orc,60,2,10,2,0,1,0,0,0,0,1
+Half-Orc (Mark of Finding),60,2,10,0,0,1,0,2,0,0,0
+Hobgoblin,60,1,12,0,0,2,1,0,0,0,0
+Human (Mark of Finding),58,2,10,0,0,1,0,2,0,0,0
+Human (Mark of Handling),58,2,10,0,0,0,0,2,0,1,0
+Human (Mark of Making),58,2,10,0,0,0,2,0,0,1,0
+Human (Mark of Passage),58,2,10,0,2,0,0,0,0,1,0
+Human (Mark of Sentinel),58,2,10,0,0,2,0,1,0,0,0
+Human (Variant),58,2,10,0,0,0,0,0,0,2,1
+Kalashtar,64,2,6,0,0,0,0,2,1,0,0
+Kenku,54,2,6,0,2,0,0,1,0,0,2
+Kobold,30,1,6,-2,2,0,0,0,0,0,0
+Lizardfolk,60,2,10,0,0,2,0,1,0,0,2
+Loxodon,84,1,12,0,0,2,0,1,0,0,0
+Minotaur,66,2,6,2,0,1,0,0,0,0,1
+Orc,64,2,8,2,0,1,0,0,0,0,2
+Shifter (Beasthide),54,2,8,1,0,2,0,0,0,0,1
+Shifter (Longtooth),54,2,8,2,1,0,0,0,0,0,1
+Shifter (Swiftstride),54,2,8,0,2,0,0,0,1,0,1
+Shifter (Wildhunt),54,2,8,0,1,0,0,2,0,0,1
+Simic Hybrid,58,2,10,0,0,2,0,0,0,1,0
+Tabaxi,62,2,10,0,2,0,0,0,0,0,2
+Tiefling (Asmodeus),58,2,10,0,0,0,1,0,2,0,0
+Tiefling (Baalzebul),58,2,10,0,0,0,1,0,2,0,0
+Tiefling (Dispater),58,2,10,0,1,0,0,0,2,0,0
+Tiefling (Fierna),58,2,10,0,0,0,0,1,0,0,0
+Tiefling (Glasya),58,2,10,0,1,0,0,0,2,0,0
+Tiefling (Levistus),58,2,10,0,0,1,0,0,2,0,0
+Tiefling (Mammon),58,2,10,0,0,0,1,0,2,0,0
+Tiefling (Mephistopheles),58,2,10,0,0,0,1,0,2,0,0
+Tiefling (Variant),58,2,10,0,2,0,1,0,0,0,0
+Tiefling (Variant),58,2,10,0,0,0,1,0,2,0,0
+Tiefling (Zariel),58,2,10,1,0,0,0,0,2,0,0
+Triton,58,1,10,1,0,1,0,0,1,0,0
+Vedalken,72,1,6,0,0,0,2,1,0,0,0
+Verdan,36,2,4,0,0,1,0,0,2,0,1
+Warforged,70,2,6,0,0,2,0,0,0,1,1
+Yuan-ti Pureblood,58,2,10,0,0,0,1,0,2,0,0
