@@ -5,21 +5,24 @@ from pandas import *
 from math import ceil
 import numpy
 
-races = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/Races.csv')
-classes = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/Classes.csv')
-subs = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/Subs.csv')
-items = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/MagicItems.csv')
-backgrounds = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/Backgrounds.csv')
-profs = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/Profs.csv')
-raceprofs = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/RacialProfs.csv')
-bgprofs = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/BGProficiencies.csv')
-bgflaws = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/BGFlaws.csv')
-bgbonds = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/BGBonds.csv')
-bgideals = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/BGIdeals.csv')
-bgpers = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/BGPersonality.csv')
-feats = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/Feats.csv')
-featreqs = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/FeatsReqs.csv')
-featplus = read_csv('https://raw.githubusercontent.com/2stickmen/charactergen/master/FeatsPlusses.csv')
+rawGitURL = 'https://raw.githubusercontent.com/tScholey/CharacterMaker/master/{}.csv'
+
+
+races = read_csv(rawGitURL.format('Races'))
+classes = read_csv(rawGitURL.format('Classes'))
+subs = read_csv(rawGitURL.format('Subs'))
+items = read_csv(rawGitURL.format('MagicItems'))
+backgrounds = read_csv(rawGitURL.format('Backgrounds'))
+profs = read_csv(rawGitURL.format('Profs'))
+raceprofs = read_csv(rawGitURL.format('RacialProfs'))
+bgprofs = read_csv(rawGitURL.format('BGProficiencies'))
+bgflaws = read_csv(rawGitURL.format('BGFlaws'))
+bgbonds = read_csv(rawGitURL.format('BGBonds'))
+bgideals = read_csv(rawGitURL.format('BGIdeals'))
+bgpers = read_csv(rawGitURL.format('BGPersonality'))
+feats = read_csv(rawGitURL.format('Feats'))
+featreqs = read_csv(rawGitURL.format('FeatsReqs'))
+featplus = read_csv(rawGitURL.format('FeatsPlusses'))
 
 
 
@@ -376,7 +379,7 @@ def getASI(level,clas,stats, nstats):
 def getInit(clas,sub,level,feats,stats):
     init = statBonus(stats[1])
     if sub == 'Swashbuckler':
-        t += statBonus(stats[5])
+        init += statBonus(stats[5])
     elif sub == 'Gloom Stalker':
         init += statBonus(stats[4])
     elif sub == 'War Magic':
@@ -409,7 +412,7 @@ def makeCharacter(level, *args): # Input a list: [Amount of common items, Amount
     stats = deets[0]
     feats = asi[0]
     for i in range(len(feats)):
-        feats.insert(2*i+1,deets[2][i].replace('\\r','\r')) 
+        feats.insert(2*i+1,deets[2][i]) 
     init = getInit(clas,sub,level,feats,stats)
     gend = choices(gender,[0.45,0.45,0.1])[0]
     alignment = choices(alignments,[5/36,5/36,5/36,5/36,5/36,5/36,2/36,2/36,2/36])[0]
@@ -531,7 +534,7 @@ def makeCharacter(level, *args): # Input a list: [Amount of common items, Amount
    'Flaws' : flaw,
    'Initiative' : int(init),
    'Features and Traits' : str(feats)[1:-1],
-   'Help' : deets[1],
+   'Help' : deets,
 
 }
     
